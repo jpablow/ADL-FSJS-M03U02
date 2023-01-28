@@ -5,83 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript-Condiciones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rajdhani&family=Raleway&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="container">
-        <section class="container_part1">
-            <img src="assets/img/joyas.jpg" alt="Joyas">
-            <h3>Haz click en la imagen</h3>
-        </section>
+        <section class="container_part1" id="parte1">
+            <p class="px_nombre">Parte 1</p>
 
-        <section class="container_part2">
-            <h3>Selecciona hasta 10 stickers que quieras llevar</h3>
-
-            <div class="card_container">
-                <div class="mini_card">
-                    <img src="assets/img/sticker05.jpg" alt="Sticker Bowie" class="sticker_img">
-                    <input type="number" id="input01">
-                </div>
-    
-                <div class="mini_card">
-                    <img src="assets/img/sticker04.jpg" alt="Sticker Bowie" class="sticker_img">
-                    <input type="number" id="input01">
-                </div>
-    
-                <div class="mini_card">
-                    <img src="assets/img/sticker03.jpg" alt="Sticker Bowie" class="sticker_img">
-                    <input type="number" id="input01">
-                </div>    
+            <div class="container_center">
+                <img src="assets/img/joyas.jpg" alt="Joyas">
+                <h2>Haz click en la imagen</h2>
             </div>
 
-            <h5>prueba</h5>
-
-            <button>Me los llevo</button>
+            <div class="px_ant_sig">
+                <a href="#parte2">siguiente</a>
+            </div>
         </section>
 
-        <section class="container_part3">
-            <h2>Ingresa el password</h2>
+        <section class="container_part2" id="parte2">
+            <p class="px_nombre">Parte 2</p>
 
-            <div class="password_container">
-                <select name="digito01" id="digito01">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                </select>
+            <div class="container_center">
+                <h2>Selecciona hasta 10 stickers que quieras llevar</h2>
 
-                <select name="digito02" id="digito02">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                </select>
+                <div class="card_container">
+                    <div class="mini_card">
+                        <img src="assets/img/sticker05.jpg" alt="Sticker Bowie" class="sticker_img">
+                        <input type="number" id="input01" min="0" max="10">
+                    </div>
+    
+                    <div class="mini_card">
+                        <img src="assets/img/sticker04.jpg" alt="Sticker Bowie" class="sticker_img">
+                        <input type="number" id="input01" min="0" max="10">
+                    </div>
+    
+                    <div class="mini_card">
+                        <img src="assets/img/sticker03.jpg" alt="Sticker Bowie" class="sticker_img">
+                        <input type="number" id="input01" min="0" max="10">
+                    </div>    
+                </div>
 
-                <select name="digito03" id="digito03">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                </select>
+                <h4>Ahora presiona el botón</h4>
+
+                <button>Me los llevo</button>
             </div>
 
-            <button>Ingresar</button>
+            <div class="px_ant_sig">
+                <a href="#parte1">anterior</a>
+                <span> | </span>
+                <a href="#parte3">siguiente</a>
+            </div>
+        </section>
 
-            <p>resultado de password</p>
+        <section class="container_part3" id="parte3">
+            <p class="px_nombre">Parte 3</p>
+
+            <div class="container_center">
+                <h1>Ingresa el password</h1>
+
+                <div class="password_container">
+                    <select name="digito01" id="digito01">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+
+                    <select name="digito02" id="digito02">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+
+                    <select name="digito03" id="digito03">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+
+                <button>Ingresar</button>
+
+                <p>resultado de password</p>
+            </div>
+
+            <div class="px_ant_sig">
+                <a href="#parte2">anterior</a>
+            </div>
         </section>
     </div>
 </body>
