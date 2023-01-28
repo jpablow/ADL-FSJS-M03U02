@@ -25,6 +25,7 @@ body {
 
 a:link {
     text-decoration: none;
+    color: inherit;
 }
 
 a:visited {
