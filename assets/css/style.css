@@ -21,6 +21,7 @@ body {
 .px_ant_sig {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 30px;
+    color: inherit;
 }
 
 a:link {
