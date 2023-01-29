@@ -43,6 +43,14 @@ a:active {
     background-color: darkgray;
 }
 
+.container_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100vh;
+    max-width: 95vw;
+}
+
 .container_part1 {
     display: flex;
     flex-direction: column;
@@ -53,6 +61,10 @@ a:active {
     background-color: black;
     color: whitesmoke;
     font-family: 'Satisfy', cursive;
+}
+
+#p1_img {
+    width: 100%;
 }
 
 .container_part2 {
@@ -71,6 +83,11 @@ a:active {
     justify-content: center;
 }
 
+h2 {
+    text-align: center;
+    text-justify: inter-word;
+}
+
 .mini_card {
     display: flex;
     flex-direction: column;
@@ -78,8 +95,8 @@ a:active {
 }
 
 .mini_card img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    /* height: 300px; */
 }
 
 .mini_card input {
@@ -96,12 +113,6 @@ a:active {
     width: 100vw;
     background-color: mintcream;
     font-family: 'Rajdhani', sans-serif;
-}
-
-.container_center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .password_container {
