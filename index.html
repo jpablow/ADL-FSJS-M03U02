@@ -16,7 +16,7 @@
             <p class="px_nombre">Parte 1</p>
 
             <div class="container_center">
-                <img src="assets/img/joyas.jpg" alt="Joyas">
+                <img src="assets/img/joyas.jpg" alt="Joyas" id="p1_img">
                 <h2>Haz click en la imagen</h2>
             </div>
 
@@ -39,18 +39,18 @@
     
                     <div class="mini_card">
                         <img src="assets/img/sticker04.jpg" alt="Sticker Bowie" class="sticker_img">
-                        <input type="number" id="input01" min="0" max="10">
+                        <input type="number" id="input02" min="0" max="10">
                     </div>
     
                     <div class="mini_card">
                         <img src="assets/img/sticker03.jpg" alt="Sticker Bowie" class="sticker_img">
-                        <input type="number" id="input01" min="0" max="10">
+                        <input type="number" id="input03" min="0" max="10">
                     </div>    
                 </div>
 
-                <h4>Ahora presiona el botón</h4>
+                <h4 id="stMensaje">Ahora presiona el botón</h4>
 
-                <button>Me los llevo</button>
+                <button id="boton_sticker">Me los llevo</button>
             </div>
 
             <div class="px_ant_sig">
@@ -104,9 +104,9 @@
                     </select>
                 </div>
 
-                <button>Ingresar</button>
+                <button id="boton_password">Ingresar</button>
 
-                <p>resultado de password</p>
+                <p id="Res_Password"></p>
             </div>
 
             <div class="px_ant_sig">
@@ -114,5 +114,6 @@
             </div>
         </section>
     </div>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
